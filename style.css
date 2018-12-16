@@ -231,6 +231,8 @@ border: 0 none;
         margin-bottom: 200px;
         background: #eeeeee;
         max-height: 50%;
+        font-size: 15px;
+        line-height: 20px;
     }
     
     #logo {
@@ -256,6 +258,11 @@ border: 0 none;
     }
     .work {
         margin-top: 10px;
+    }
+    form {
+        float: left;
+        margin:20px;
+        padding: 20px;
     }
 }
 
