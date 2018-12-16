@@ -226,5 +226,19 @@ border: 0 none;
 /* Media queries */
 
 @media screen and (max-width: 640px) {
+    body {
+        background-color: #4aaaa5;
+    }
 
+    .class *="col-"] {
+            width: 100%;
+            padding: 20px;
+    }
+        
+    #masthead {
+        width: 100%;
+        margin: 20px;
+        padding: 20px;
+    }
+    
 }
