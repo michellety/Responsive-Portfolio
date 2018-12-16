@@ -225,10 +225,20 @@ border: 0 none;
 
 @media screen and (max-width: 640px) {
     section.main-section {
-        background-color: #4aaaa5;
+        padding: 0px;
+        border: 2px;
+        margin: 50px;
+        margin-bottom: 200px;
+        background: #eeeeee;
+        max-height: 50%;
     }
     
+    #logo {
+        float: left;
+        margin-left: 15;
+    }
     nav {
+        float: left;
         margin: 15px;
         border: 20px;
     }
@@ -240,6 +250,8 @@ border: 0 none;
     .wrapper {
         width:100%;
         padding: 20px;
+        padding-bottom: 200px;
+        margin: 15px;
 
     }
     .work {
@@ -249,14 +261,17 @@ border: 0 none;
 
 @media screen and (max-width: 768px) {
     section.main-section {
-        background-color: #666666;
+        padding: 20px;
+        border: 2px;
+        margin: 50px;
+        max-height: 50%;
     }
     
     nav {
+        float: left;
         margin: 15px;
         border: 20px;
     }
-
     #masthead {
         position: fixed;
         top: 0;
@@ -265,24 +280,26 @@ border: 0 none;
     .wrapper {
         width:100%;
         padding: 20px;
+        margin: 15px;
 
-     }
+    }
     .work {
         margin-top: 10px;
     }
-}  
 
 
 @media screen and (max-width: 980px) {
     section.main-section {
-        background-color: lightskyblue;
+        padding: 20px;
+        border: 2px;
+        margin: 50px;
     }
     
     nav {
+        float: left;
         margin: 15px;
         border: 20px;
     }
-
     #masthead {
         position: fixed;
         top: 0;
@@ -291,8 +308,9 @@ border: 0 none;
     .wrapper {
         width:100%;
         padding: 20px;
+        margin: 15px;
 
-     }
+    }
     .work {
         margin-top: 10px;
     }
