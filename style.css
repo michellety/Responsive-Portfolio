@@ -293,6 +293,7 @@ border: 0 none;
     .work {
         margin-top: 10px;
     }
+}
 
 
 @media screen and (max-width: 980px) {
@@ -321,4 +322,5 @@ border: 0 none;
     .work {
         margin-top: 10px;
     }
-}  
+}
+
